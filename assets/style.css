@@ -108,12 +108,13 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
+	color: #000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: text;
 }
 .item-column {
 	position: relative;
@@ -133,6 +134,7 @@ body {
 	height: 100%;
 	object-fit: cover;
 	padding: .5em;
+	cursor: inherit;
 }
 .mg-prev, .mg-next {
 	width: 30px;
@@ -257,6 +259,11 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+.coordonnees {
+	padding: 12px;
+	padding-bottom: 50px;
 }
 
 @media all and (max-width: 1180px) {
