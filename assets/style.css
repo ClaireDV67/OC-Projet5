@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	height: 20px;
 }
 
 #about {
@@ -65,11 +66,12 @@ body {
 	flex: 1;
 	margin: 0 20px;
 	z-index: 0;
-	max-width: 600px;
 }
 
 .picture img {
 	width: 100%;
+	max-width: 600px;
+	max-height: 600px;
 
 }
 #about-me {
@@ -95,6 +97,7 @@ body {
 
 .carousel-item-picture {
 	max-width: 1920px;
+	max-height: 890px;
 }
 
 #gallery {
@@ -262,8 +265,7 @@ input[type="submit"] {
 }
 
 .coordonnees {
-	padding: 12px;
-	padding-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 @media all and (max-width: 1180px) {
