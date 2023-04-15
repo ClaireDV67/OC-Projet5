@@ -67,12 +67,15 @@ body {
 	margin: 0 20px;
 	z-index: 0;
 }
-
+picture img {
+	width: 100%;
+	height: auto;
+}
 .picture img {
 	width: 100%;
+	height: auto;
 	max-width: 600px;
 	max-height: 600px;
-
 }
 #about-me {
 	flex: 2
@@ -210,12 +213,30 @@ body {
 	z-index: 1;
 }
 
+.price {
+	display: block;
+	font-size: calc(1.275rem + 0.3vw);
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+	line-height: 1.2;
+}
+@media (min-width: 1200px) {
+	.price {
+		font-size: 1.5rem;
+	}
+}
+
 #contact {
 	margin: auto;
 	background-color: #D8D3A8 ;
 	position: relative;
 	padding-inline: 100px;
 	padding-block: 100px;
+}
+
+.contact {
+	margin-bottom: 40px;
 }
 
 #contact .container {
